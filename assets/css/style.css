@@ -192,7 +192,7 @@ a {
     color: #171100;
 }
 
-.content-block .desc {
+.hero .content-block .desc {
     width: 470px;
     margin-top: 22px;
     font-weight: 400;
@@ -477,4 +477,59 @@ a {
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* ==================== Features ==================== */
+.features {
+    margin-top: 200px;
+}
+
+.features .body {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.features .img-block {
+    width: 48.7%;
+    display: flex;
+    gap: 30px;
+}
+
+.features img {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features img:first-child {
+    margin-top: 34px;
+}
+
+.features .content-block {
+    width: 51.3%;
+    padding: 58px 0 58px 130px;
+}
+
+.features .content-block .title {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features .btn {
+    min-width: 137px;
+    margin-top: 32px;
+    background-color: #ffb900;
 }
