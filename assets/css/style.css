@@ -486,7 +486,6 @@ a {
 
 .features .body {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .features .img-block {
@@ -532,4 +531,53 @@ a {
     min-width: 137px;
     margin-top: 32px;
     background-color: #ffb900;
+}
+
+/* ==================== CTA ==================== */
+.cta {
+    margin-top: 200px;
+}
+
+.cta .body {
+    display: flex;
+}
+
+.cta .info-block {
+    width: 48.7%;
+    margin-top: 71px;
+}
+
+.cta .title {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.cta .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.cta .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    background-color: #ffb900;
+}
+
+.cta .img-block {
+    width: 51.3%;
+    padding-left: 130px;
+}
+
+.cta .img {
+    width: 100%;
+    height: 440px;
+    border-radius: 20px;
+    object-fit: cover;
 }
