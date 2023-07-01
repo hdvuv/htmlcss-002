@@ -57,21 +57,19 @@ header.header {
     z-index: 1;
 }
 
-.header .body {
+.navbar {
     display: flex;
     align-items: center;
     padding: 36px 0 8px;
+    justify-content: space-between;
 }
 
-.nav {
+.navbar ul {
+    display: flex;
     margin-left: auto;
 }
 
-.nav ul {
-    display: flex;
-}
-
-.nav a {
+.navbar ul a {
     position: relative;
     padding: 8px 21px;
     font-weight: 400;
@@ -79,13 +77,13 @@ header.header {
     color: #5f5b53;
 }
 
-.nav a:hover,
-.nav li.active a {
+.navbar a:hover,
+.navbar li.active a {
     text-shadow: 1px 0 0 currentColor;
     color: #171100;
 }
 
-.nav li.active a::after {
+.navbar li.active a::after {
     position: absolute;
     left: 21px;
     bottom: 6px;
