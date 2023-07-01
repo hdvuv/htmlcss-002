@@ -321,7 +321,8 @@ header.header {
 }
 
 .courses .bottom-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 55px;
 }
@@ -634,8 +635,8 @@ header.header {
 
 .blog .list {
     margin-top: 55px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 

@@ -7,6 +7,10 @@
     .toggle-menu {
         display: none;
     }
+
+    .show-on-mobile {
+        display: none;
+    }
 }
 
 /* PC */
@@ -21,6 +25,14 @@
 
     .show-on-mobile {
         display: none;
+    }
+
+    .hero .content-block {
+        padding: 64px 40px;
+    }
+
+    .footer .footer-seperate {
+        width: unset;
     }
 }
 
@@ -86,6 +98,111 @@
 
     .separate {
         border-top: 1.5px solid #ccc;
+    }
+
+    .hero .media-block {
+        display: none;
+    }
+
+    .hero .content-block {
+        width: 80%;
+        margin: 0 auto;
+        padding: 64px 0px;
+        text-align: center;
+    }
+
+    .content-block .heading {
+        width: 100%;
+        font-size: 5.6rem;
+    }
+
+    .hero .content-block .desc {
+        width: 100%;
+    }
+
+    .content-block .cta-group {
+        justify-content: space-around;
+    }
+
+    .content-block .desc.stats {
+        margin: unset;
+    }
+
+    .quotes .body {
+        flex-direction: column;
+    }
+
+    .quotes .quote {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .quotes .content-quote {
+        font-size: 2rem;
+    }
+
+    .quotes .avatar-block {
+        order: 2;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .quotes .slice {
+        margin: 28px auto 0;
+    }
+
+    .features .body {
+        flex-direction: column;
+    }
+
+    .features .content-block {
+        width: 100%;
+        order: 1;
+        padding: unset;
+    }
+
+    .features .img-block {
+        margin-top: 40px;
+        width: 100%;
+        order: 2;
+        justify-content: space-around;
+    }
+
+    .features img {
+        width: 340px;
+    }
+
+    .cta .body {
+        flex-direction: column;
+    }
+
+    .cta .info-block {
+        width: 100%;
+    }
+
+    .cta .img-block {
+        width: 100%;
+        padding: unset;
+        margin-top: 40px;
+    }
+
+    .footer .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .footer .socials,
+    .footer .column.company,
+    .footer .support,
+    .footer .address {
+        width: 100%;
+    }
+
+    .footer .footer-seperate {
+        width: unset;
     }
 }
 
