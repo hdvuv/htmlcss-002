@@ -220,6 +220,11 @@
     .footer .footer-seperate {
         width: unset;
     }
+
+    .courses .bottom-row,
+    .blog .list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Tablet */

@@ -322,7 +322,7 @@ header.header {
 
 .courses .bottom-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 55px;
 }
@@ -636,7 +636,7 @@ header.header {
 .blog .list {
     margin-top: 55px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
