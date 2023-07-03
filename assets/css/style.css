@@ -245,6 +245,10 @@ header.header {
     justify-content: center;
 }
 
+.watch-video .icon:hover {
+    border: 1px solid var(--primary-color);
+}
+
 .watch-video span {
     margin-left: 14px;
     font-weight: 600;
@@ -299,17 +303,7 @@ header.header {
     display: flex;
 }
 
-.courses .icons img {
-    width: 6px;
-    height: 12px;
-}
-
-.courses .icons a:first-child {
-    background-color: transparent;
-    border: 1px solid #ffb900;
-}
-
-.courses .icons a {
+.courses .icons button {
     display: flex;
     margin-left: 18px;
     align-items: center;
@@ -317,7 +311,16 @@ header.header {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #ffb900;
+    color: #ffb900;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.courses .icons button:hover {
     background-color: #ffb900;
+    color: #fff;
 }
 
 .courses .bottom-row {
